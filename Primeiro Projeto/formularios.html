@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form > <!--Formulario-->
+        Login: <br>
+        <input type="text" name="login"> <br>  <!--Text é o texto no cadastro  -->
+
+        Senha: <br>
+        <input type="password" name="senha">  <br><!--Password é colocando esse nome como entrada o site entende que é senha e nao mostra os caracteres escritos.-->
+
+        <input type="button" value="Logar">
+    </form>
+
+
+    <h2>Cadastre-se</h2>
+    <form>
+        Login: <br>
+        <input type="text" name="login"> <br> <br>
+        Sexo: <br>
+        <input type="radio" name="sexo" value="M"> Masculino <br> <!--Radio é usada para que seja coloca apenas uma bolinha dada como uma unica condicao de resposta-->
+        <input type="radio" name="sexo" value="F"> Feminino <br> <br> <!--o valor SEXO é coloca no name para que seja dado para a linguagem de programacao como uma entrada ativa que seja necessario uma resposta.
+        o VALUE é para que em um possivel banco de dados seja possivel armazem a variavel-->
+
+        Interesses <br>
+        <input type="checkbox" name="interesses"> Futebool<br>  <!--CHECKBOX é colocada dentro do formulario para que o usuario possa escolher mais de uma opção-->
+        <input type="checkbox" name="interesses"> Cursos<br>
+        <input type="checkbox" name="interesses"> Moda<br> <br>
+
+        Estado <br>
+            <select name="estado">  <!--Usado para escolher uma opção dentre um lista-->
+                <option value="sp">SP</option> <!-- coloca as opcoes da lista, podendo ser muitas-->
+                <option value="pi">PI</option> <!-- o value é colocado para armazenar os dados-->
+                <option value="ma">MA</option>
+                <option value="rj">RJ</option>
+            </select> <br> <br>
+
+
+        Observaçoes: <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br> <!-- caixa de texto-->
+            <input type="submit" value="Cadastrar">
+
+    </form>
+</body>
+</html>
